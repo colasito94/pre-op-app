@@ -1,6 +1,15 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./Views/Homepage";
+import CancelAppointment from "./Views/CancelAppointment";
+import ConfirmCancellation from "./Views/ConfirmCancellation";
+import CancellationConfirmed from "./Views/CancellationConfirmed";
+import ConfirmAppointment from "./Views/ConfirmAppointment";
+import EnterInformation from "./Views/EnterInformation";
+import ConfirmInformation from "./Views/ConfirmInformation";
+import AppointmentConfirmed from "./Views/AppointmentConfirmed";
+import FAQ from "./Views/FAQ";
+import ContactUs from "./Views/ContactUs";
 
 function App() {
   return (
