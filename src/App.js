@@ -10,6 +10,8 @@ import ConfirmInformation from "./Views/ConfirmInformation";
 import AppointmentConfirmed from "./Views/AppointmentConfirmed";
 import FAQ from "./Views/FAQ";
 import ContactUs from "./Views/ContactUs";
+import RNLogin from "./Views/RNLogin";
+import PatientLogin from "./Views/PatientLogin";
 
 function App() {
   return (
@@ -49,6 +51,13 @@ function App() {
             />
             <Route path="/ContactUs" exact
                    element={<ContactUs />}
+            />
+            {/*RN and Patient Login*/}
+            <Route path="/RNLogin" exact
+                   element={<RNLogin />}
+            />
+            <Route path="/PatientLogin" exact
+                   element={<PatientLogin />}
             />
           </Routes>
         </BrowserRouter>
