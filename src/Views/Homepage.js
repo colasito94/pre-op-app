@@ -6,6 +6,13 @@ function HomePage() {
             <h1>Pre-op App</h1>
             <Link class="link" to="/rnlogin"> RN Login </Link>
             <Link class="link" to="/patientlogin"> Patient Login </Link>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <h3>New Feature!</h3>
+            You can now quickly cancel an appointment by clicking the link below:
+            <Link class="link" to="/CancelAppointment"> Cancel Appointment </Link>
         </>
     );
 }
