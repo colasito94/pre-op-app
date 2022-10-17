@@ -9,7 +9,10 @@ function ConfirmCancellation() {
             *Patient's Reason Here*.
             <br/>
             <br/>
-            <Link class="link" to="/CancellationConfirmed"> <button> Cancel my appointment </button> </Link>
+            <Link class="link" to="/CancellationConfirmed">
+                <button onClick={alert("Warning! This will cancel your appointment")}>
+                Cancel my appointment </button>
+            </Link>
         </>
     );
 }
