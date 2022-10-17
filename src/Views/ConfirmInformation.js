@@ -3,7 +3,10 @@ import {Link} from "react-router-dom";
 function ConfirmInformation() {
     return (
         <>
-            <Link class="link" to="/EnterInformation"> <button> Go Back to Previous Page </button> </Link>
+            <Link class="link" to="/EnterInformation">
+                <button onClick={alert("Warning! This will replace your existing information!")}>
+                    Go Back to Previous Page </button>
+            </Link>
             <h1>Confirm Information</h1>
             <h4> Are the following information correct? </h4>
             Allergies/reactions: *Patient answer here*
