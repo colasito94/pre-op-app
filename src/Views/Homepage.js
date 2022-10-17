@@ -9,9 +9,9 @@ function HomePage() {
             <br/>
             <br/>
             <br/>
-            <br/>
-            <h3>New Feature!</h3>
-            You can now quickly cancel an appointment by clicking the link below:
+            <h3>*New Feature!*</h3>
+            You can now quickly confirm or cancel an appointment by clicking the link below:
+            <Link class="link" to="/ConfirmAppointment"> Confirm Appointment </Link>
             <Link class="link" to="/CancelAppointment"> Cancel Appointment </Link>
         </>
     );

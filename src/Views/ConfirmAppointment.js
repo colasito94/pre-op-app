@@ -1,11 +1,12 @@
+import {Link} from "react-router-dom";
+
 function ConfirmAppointment() {
     return (
         <>
-            <button> Go Back to Previous Page </button>
+            <Link class="link" to="/"> <button> Go Back to Home Page </button> </Link>
             <h1>Confirm Appointment</h1>
             I would like to confirm my appointment.
-            <button> Yes, confirm my appointment. </button>
-            <button> No, keep my appointment. </button>
+            <Link class="link" to="/EnterInformation"> <button> Confirm my appointment. </button> </Link>
         </>
     );
 }
