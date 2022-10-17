@@ -6,6 +6,7 @@ function HomePage() {
             <h1>Pre-op App</h1>
             <Link class="link" to="/rnlogin"> RN Login </Link>
             <Link class="link" to="/patientlogin"> Patient Login </Link>
+            <Link class="link" to="/FAQ"> FAQ </Link>
             <br/>
             <br/>
             <br/>
