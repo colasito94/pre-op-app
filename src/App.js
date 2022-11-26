@@ -12,6 +12,7 @@ import FAQ from "./Views/FAQ";
 import ContactUs from "./Views/ContactUs";
 import RNLogin from "./Views/RNLogin";
 import PatientLogin from "./Views/PatientLogin";
+import PatientOverview from "./Views/PatientOverview";
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
             />
             <Route path="/PatientLogin" exact
                    element={<PatientLogin />}
+            />
+            <Route path="/PatientOverview" exact
+                   element={<PatientOverview />}
             />
           </Routes>
         </BrowserRouter>
